@@ -45,6 +45,7 @@ class TravelCrawler():
             result = elem.text
             number = result.split(" ")[2]
             print(country,":", number)
+        driver.quit()
 
 
 tt = TravelCrawler()
