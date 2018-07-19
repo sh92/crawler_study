@@ -22,7 +22,7 @@ class TravelCrawler():
 
         isVideo = True
         print(" This is the number of travel vedio per country in google")
-        for i in range(6,30):
+        for i in range(6,10):
 
             data = xlrd.open_workbook('countries.xls')
             sheet = data.sheet_by_index(0)

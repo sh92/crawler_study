@@ -1,6 +1,7 @@
-# traveler_crawler
+# Search Video in google and crawling
 
-This is a side project to know the number of travel video per country in google  
+travel_crawler  : It shows the number of travel video per country in google  
+travel_video_crawler.py : Create a csv file about video information [ country, region, image url, video url ]
 
 * Crawling : Selenium  
 * Google Search Automation
